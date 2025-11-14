@@ -54,4 +54,17 @@ CREATE TABLE books (
     FOREIGN KEY (publisher_id) REFERENCES publishers(publisher_id),
     FOREIGN KEY (category_id) REFERENCES categories(category_id)
 );
+---
 
+### Task 2: Data Insertion & NULL Handling
+
+### What I Completed
+- Inserted sample records into tables (publishers, categories, authors, books, book_authors, members, loans).
+- Handled NULL values (checked with `IS NULL`, used `COALESCE`).
+- Performed UPDATE and DELETE safely (used WHERE on keys).
+- Demonstrated transactions (`START TRANSACTION`, `COMMIT`, `ROLLBACK`).
+- Used `INSERT ... ON DUPLICATE KEY UPDATE` (modern alias syntax recommended).
+- Added `task2_inserts.sql` containing all the above operations.
+
+### Files Added
+- `task2_inserts.sql` — Task 2 SQL script
