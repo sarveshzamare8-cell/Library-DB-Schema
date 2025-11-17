@@ -68,3 +68,14 @@ CREATE TABLE books (
 
 ### Files Added
 - `task2_inserts.sql` — Task 2 SQL script
+
+## 📗 Task 3: SELECT Queries (Data Retrieval)
+
+I added `task3_selects.sql` which demonstrates common SELECT operations:
+- Basic `SELECT *` and selecting specific columns
+- `WHERE`, `LIKE`, `BETWEEN`, `IN`
+- `JOIN` (including many-to-many join via bridge table)
+- Aggregation (`COUNT`, `GROUP BY`, `HAVING`)
+- `DISTINCT`, `ORDER BY`, `LIMIT`
+- NULL handling using `IS NULL` and `COALESCE`
+- Computed columns and `CASE` usage
