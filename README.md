@@ -79,3 +79,18 @@ I added `task3_selects.sql` which demonstrates common SELECT operations:
 - `DISTINCT`, `ORDER BY`, `LIMIT`
 - NULL handling using `IS NULL` and `COALESCE`
 - Computed columns and `CASE` usage
+
+## Task 4: Aggregate Functions & Grouping
+
+This task focuses on using aggregate functions and grouping to summarize data.
+
+### Concepts Practiced
+- `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`
+- `GROUP BY` for grouping data
+- `HAVING` for filtering groups
+- `GROUP_CONCAT` for combining multiple values
+- Joins with aggregation
+
+### Deliverable
+- Added `task4_aggregates.sql` containing all aggregate and grouping queries.
+
