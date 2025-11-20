@@ -94,3 +94,19 @@ This task focuses on using aggregate functions and grouping to summarize data.
 ### Deliverable
 - Added `task4_aggregates.sql` containing all aggregate and grouping queries.
 
+## 📘 Task 5: SQL Joins (INNER, LEFT, RIGHT, FULL)
+
+This task demonstrates combining records from related tables using JOIN operations.
+
+### ✔️ Concepts Practiced
+- `INNER JOIN` to fetch matching records
+- `LEFT JOIN` to fetch all records from the left table
+- `RIGHT JOIN` for all records from the right table
+- `FULL OUTER JOIN` (simulated using `UNION` since MySQL doesn't support FULL JOIN)
+- Multi-table joins (books, authors, publishers)
+- Many-to-many join via `book_authors`
+
+### ✔️ Deliverable
+- `task5_joins.sql` uploaded in repository
+
+
