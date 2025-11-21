@@ -109,4 +109,15 @@ This task demonstrates combining records from related tables using JOIN operatio
 ### ✔️ Deliverable
 - `task5_joins.sql` uploaded in repository
 
+## 📘 Task 6: Subqueries and Nested Queries
+
+This task demonstrates the use of:
+- Scalar subqueries
+- Subqueries inside `WHERE`, `IN`, `EXISTS`
+- Correlated subqueries
+- Nested subqueries
+- Subqueries inside `FROM` (derived tables)
+
+### ✔️ Deliverable
+`task6_subqueries.sql` file containing all required subqueries.
 
